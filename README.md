@@ -20,6 +20,17 @@ simply on unpacking dependencies with the `maven-dependency-plugin`,
 and then re-packing them up with the `maven-assembly-plugin` and
 forcing it to re-use the existing manifest.
 
+# Disclaimer
+
+These exist (mostly) for OpenNMS to satisfy transient dependencies
+in some Karaf features that haven't been forced into being
+uplifted to new Spring versions yet, and ideally are primarily
+rarely executed codepaths.
+
+Please do not take these builds as an endorsement for any kind of
+production use. In fact, I would argue that you should not take
+these builds at all, regardless of how you'd like to use them. :)
+
 [^1]: https://github.com/opennms-forge/spring-framework
 [^2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-22965
 [^3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-22950
