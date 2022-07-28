@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.opennms.spring.40</groupId>
+    <artifactId>servicemix</artifactId>
+    <version>1-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.apache.servicemix.bundles</groupId>
+  <artifactId>org.apache.servicemix.bundles.spring-messaging</artifactId>
+  <version>${springVersion}_1.ONMS.${project.parent.version}</version>
+  <packaging>jar</packaging>
+  <name>Spring :: Patched :: 4.0 :: Servicemix :: Spring Messaging</name>
+
+  <properties>
+    <springArtifactId>spring-messaging</springArtifactId>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
