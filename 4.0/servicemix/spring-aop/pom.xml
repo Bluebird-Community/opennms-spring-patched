@@ -10,7 +10,7 @@
 
   <groupId>org.apache.servicemix.bundles</groupId>
   <artifactId>org.apache.servicemix.bundles.spring-aop</artifactId>
-  <version>${springVersion}_1.ONMS.${project.parent.version}</version>
+  <version>${springVersion}_1.BBO.${project.parent.version}</version>
   <packaging>jar</packaging>
   <name>Spring :: Patched :: 4.0 :: Servicemix :: Spring AOP</name>
 

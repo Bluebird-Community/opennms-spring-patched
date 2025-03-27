@@ -10,7 +10,7 @@
 
   <groupId>org.springframework</groupId>
   <artifactId>spring-expression</artifactId>
-  <version>${springVersion}.ONMS.${project.parent.version}</version>
+  <version>${springVersion}.BBO.${project.parent.version}</version>
   <packaging>jar</packaging>
   <name>Spring :: Patched :: 3.1 :: Overlay :: Spring Expression</name>
 
