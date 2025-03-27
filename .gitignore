@@ -3,3 +3,10 @@
 
 # maven droppings
 target/
+
+# IntelliJ
+.idea/
+
+# jenv
+.java-version
+

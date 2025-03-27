@@ -1,0 +1,16 @@
+---
+name: spring-patched-builder
+run-name: Build patch Spring version
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  oci:
+    runs-on: ubuntu-latest
+    container:
+      image: quay.io/bluebird/java-builder:ubuntu.0.1.5.jdk-17.b21
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile from source
+        run: make
